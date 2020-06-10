@@ -1,0 +1,8 @@
+---
+- hosts: win
+  tasks:
+  - name: install Google Chrome
+    win_chocolatey:
+      name: googlechrome
+      state: present
+
