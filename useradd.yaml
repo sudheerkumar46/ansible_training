@@ -2,7 +2,6 @@
 - hosts: linux
   vars:
     username: test3
-  become: yes
   tasks:
   - name: create user
     user:
